@@ -1,0 +1,147 @@
+html,body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background: white ;
+}
+
+.icon{
+  color: black;
+  cursor: pointer;
+}
+.icon-box{
+  text-align: end;
+  align-items: center;
+  margin-top: -2vh;
+  margin-left: 1vh;
+}
+.text-box{
+  margin-top: 2vh;
+  text-align: center;
+}
+#collapse{
+  color: red;
+  border: 2px #30E7ED solid;
+  border-radius: 10px;
+  margin-top: 1vh;
+  margin-left: -4vh;
+}
+.cross-icon-box{
+  text-align: end;
+  margin-right: 1vh;
+
+  color: red;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-pane{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.8vh;
+}
+.drop-down-box{
+  margin-left: 1vh;
+  margin-top: 2vh;
+}
+.cross{
+  cursor: pointer;
+  margin-right: 0vh;
+}
+#inp1{
+cursor: grab;
+}
+.custom-node{
+  color: black;
+  padding: 10;
+  height:14vh;
+  width:14vw;
+  border: 2px #30E7ED solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  margin-left: 1.5vh;
+}
+.description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1.3vw;
+}
+.side-pane{
+  margin-left: 2vh;
+  width: 21.5vw;
+  background-color: #F0F3F4 ;
+  overflow-y: auto;
+  border-right: 3px #CCD1D1 solid;
+}
+.main-pane{
+  width: 78vw;
+  overflow-y: hidden;
+ 
+}
+.custom-node-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3.2vh;
+}
+.custom-node-col{
+  border: 2px #30E7ED solid;
+  border-radius: 10px;
+  height: 16vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ background-color: white;
+  cursor:grab;
+}
+.main{
+  overflow-y: auto;
+}
+.text-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3vh;
+  
+}
+.text-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom:2px #283747 solid ;
+  padding-bottom: 2vh;
+}
+.save-btn-col{
+  text-align: end;
+}
+.submit-btn{
+margin-top: 2vh;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.datePicker{
+  margin-top: 2.5vh;
+  width: 17.5vw;
+  margin-left: 2.2vh;
+}
+.node-name-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
